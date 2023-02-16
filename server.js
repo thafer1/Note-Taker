@@ -8,6 +8,7 @@ const app = express();
 // builds a port
 const PORT = process.env.PORT || 3000;
 
+// connects server to routes
 app.use(routes);
 
 // starts server using port
