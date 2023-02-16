@@ -1,19 +1,14 @@
 {
   "name": "note-taker",
   "version": "1.0.0",
-  "description": "This application is currently not fully funtional, but it will be an app that allows the user to creat notes and save them in a list for future viewing.",
-  "main": "Develop/server.js",
+  "description": "",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/thafer1/Note-Taker.git"
-  },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/thafer1/Note-Taker/issues"
-  },
-  "homepage": "https://github.com/thafer1/Note-Taker#readme"
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
