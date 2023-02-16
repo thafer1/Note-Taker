@@ -1,6 +1,6 @@
 // adds dependencies
 const express = require('express');
-const html = require('Develop/routes/html.js');
+const html = require('./routes/html.js');
 
 // builds express app
 const app = express();
